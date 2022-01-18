@@ -22,7 +22,7 @@ body:
       description: Please translate the labels on the right, e.g. "Copy to clipboard", etc.
       value: |-
         {% macro t(key) %}{{ {
-          "language": "en",
+          "language": "zh-tw",
           "direction": "ltr",
           "clipboard.copy": "Copy to clipboard",
           "clipboard.copied": "Copied to clipboard",
@@ -34,7 +34,7 @@ body:
           "meta.comments": "Comments",
           "meta.source": "Source",
           "nav.title": "Navigation",
-          "search.config.lang": "en",
+          "search.config.lang": "zh-tw",
           "search.config.pipeline": "trimmer, stopWordFilter",
           "search.config.separator": "[\s\-]+",
           "search.placeholder": "Search",
