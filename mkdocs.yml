@@ -47,7 +47,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: zh-TW
+  language: zh-Hant
   features:
     - content.code.annotate
     # - content.tabs.link
@@ -218,4 +218,5 @@ nav:
       - blog/2021/excluding-content-from-search.md
       - blog/2021/search-better-faster-smaller.md
  -theme:
-  language: zh-TW
+  language: zh-Hant
+  
