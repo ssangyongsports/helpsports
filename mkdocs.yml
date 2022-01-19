@@ -217,5 +217,5 @@ nav:
       - blog/2021/the-past-present-and-future.md
       - blog/2021/excluding-content-from-search.md
       - blog/2021/search-better-faster-smaller.md
-      theme:
+ -theme:
   language: zh-TW
