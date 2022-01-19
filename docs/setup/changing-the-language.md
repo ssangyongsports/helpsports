@@ -44,7 +44,7 @@ The following languages are supported:
 - `fi` – Finnish
 - `fr` – French
 - `gl` – Galician
-- `he` – Hebrew
+- `he` – Hebrew+6+3
 - `hi` – Hindi
 - `hr` – Croatian
 - `hu` – Hungarian
