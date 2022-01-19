@@ -20,7 +20,7 @@ You can set the site language in `mkdocs.yml` with:
 
 ``` yaml
 theme:
-  language: en
+  language: zh-Hant
 ```
 
 The following languages are supported:
