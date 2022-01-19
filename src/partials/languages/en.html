@@ -1,16 +1,13 @@
 <!--
   Copyright (c) 2016-2021 Martin Donath <martin.donath@squidfunk.com>
-
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to
   deal in the Software without restriction, including without limitation the
   rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
   sell copies of the Software, and to permit persons to whom the Software is
   furnished to do so, subject to the following conditions:
-
   The above copyright notice and this permission notice shall be included in
   all copies or substantial portions of the Software.
-
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
@@ -20,43 +17,29 @@
   IN THE SOFTWARE.
 -->
 
-<!-- Translations: English -->
+<!-- Translations: Chinese (Taiwanese) -->
 {% macro t(key) %}{{ {
-  "language": "en",
-  "direction": "ltr",
-  "clipboard.copy": "Copy to clipboard",
-  "clipboard.copied": "Copied to clipboard",
-  "edit.link.title": "Edit this page",
-  "footer.previous": "Previous",
-  "footer.next": "Next",
-  "footer.title": "Footer",
-  "header.title": "Header",
-  "meta.comments": "Comments",
-  "meta.source": "Source",
-  "nav.title": "Navigation",
-  "search.config.lang": "en",
-  "search.config.pipeline": "trimmer, stopWordFilter",
-  "search.config.separator": "[\s\-]+",
-  "search.placeholder": "Search",
-  "search.share": "Share",
-  "search.reset": "Clear",
-  "search.result.initializer": "Initializing search",
-  "search.result.placeholder": "Type to start searching",
-  "search.result.none": "No matching documents",
-  "search.result.one": "1 matching document",
-  "search.result.other": "# matching documents",
-  "search.result.more.one": "1 more on this page",
-  "search.result.more.other": "# more on this page",
-  "search.result.term.missing": "Missing",
-  "search.title": "Search",
-  "select.language.title": "Select language",
-  "select.version.title": "Select version",
-  "skip.link.title": "Skip to content",
-  "source.link.title": "Go to repository",
-  "source.revision.date": "Last update",
-  "source.file.date.updated": "Last update",
-  "source.file.date.created": "Created",
-  "tabs.title": "Tabs",
-  "toc.title": "Table of contents",
-  "top.title": "Back to top"
+  "language": "zh-Hant",
+  "clipboard.copy": "複製",
+  "clipboard.copied": "已複製",
+  "edit.link.title": "編輯此頁",
+  "footer.previous": "上一頁",
+  "footer.next": "下一頁",
+  "meta.comments": "留言",
+  "meta.source": "來源",
+  "search.config.lang": "ja",
+  "search.config.pipeline": "trimmer, stemmer",
+  "search.config.separator": "[\s\-　、。，．？；]+",
+  "search.placeholder": "搜尋",
+  "search.result.initializer": "正在初始化搜尋引擎",
+  "search.result.placeholder": "打字進行搜尋",
+  "search.result.none": "沒有符合的項目",
+  "search.result.one": "找到 1 個符合的項目",
+  "search.result.other": "找到 # 個符合的項目",
+  "skip.link.title": "跳轉到",
+  "source.link.title": "前往倉庫",
+  "source.revision.date": "最後更新",
+  "source.file.date.updated": "最後更新",
+  "source.file.date.created": "建立日期",
+  "toc.title": "目錄"
 }[key] }}{% endmacro %}
