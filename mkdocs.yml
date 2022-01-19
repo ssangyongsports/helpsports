@@ -219,4 +219,5 @@ nav:
       - blog/2021/search-better-faster-smaller.md
  -theme:
   language: zh-Hant
-  
+  theme:
+  name: material
